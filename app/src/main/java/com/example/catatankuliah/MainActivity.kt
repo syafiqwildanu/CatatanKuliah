@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.menu_home -> HomeFragment()
                 R.id.menu_tugas -> TugasFragment()
                 R.id.menu_profil -> ProfilFragment()
+                R.id.menu_pengaturan -> PengaturanFragment()
                 else -> return@setOnItemSelectedListener false
             }
             gantiFragment(fragment)
